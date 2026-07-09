@@ -1,0 +1,51 @@
+# ----------------------------
+# Nextflow runtime
+# ----------------------------
+work/
+.nextflow/
+.nextflow.log*
+
+# ----------------------------
+# Pipeline outputs
+# ----------------------------
+results/
+reports/
+logs_nf/
+
+# ----------------------------
+# Input data
+# ----------------------------
+data/WGS_RNAseq_sample_pairs.tsv
+
+# ----------------------------
+# Container build artifacts
+# ----------------------------
+*.sif
+*.tar
+containers/snpdetect_java8_samtools_source/
+
+# Local SNPDetect source used to build the container
+containers/snpdetect_java8_samtools_source/
+
+# ----------------------------
+# Operating system
+# ----------------------------
+.DS_Store
+
+# ----------------------------
+# Editor settings
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+
+# ----------------------------
+# Miscellaneous
+# ----------------------------
+*.tmp
+*.swp
